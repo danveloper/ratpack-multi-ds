@@ -1,0 +1,7 @@
+datasources:
+  ds1:
+    url: jdbc:h2:mem:ingest;DB_CLOSE_DELAY=-1
+    user: sa
+  ds2:
+    url: jdbc:h2:mem:schema;DB_CLOSE_DELAY=-1
+    user: sa
